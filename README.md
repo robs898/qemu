@@ -2,6 +2,14 @@
 
 guide: https://github.com/saveriomiroddi/vga-passthrough/blob/master/3_BASIC_SETUP.md
 
+## ovmf
+
+on musl void you can't build with gcc from git. So use `rpmextract` on:
+
+https://www.kraxel.org/repos/jenkins/edk2/
+
+And move the fd files to `/usr/share`
+
 ## install
 
 40GB qcow
