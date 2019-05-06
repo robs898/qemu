@@ -18,6 +18,10 @@ attach the windows iso and drivers. install the scsi driver and net driver.
 
 libvirt/virsh isn't required neither is virt-manager
 
+when happy make a snapshot to work from:
+
+`qemu-img create -f qcow2 -b disk.img snapshot.img`
+
 ## run
 
 `sudo ./run.sh`
