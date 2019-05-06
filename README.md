@@ -20,7 +20,7 @@ libvirt/virsh isn't required neither is virt-manager
 
 ## run
 
-just use run.sh with root
+`sudo ./run.sh`
 
 ## help
 https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF#Prerequisites
