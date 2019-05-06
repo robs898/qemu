@@ -1,21 +1,18 @@
 # qemu
 
-qcow on ssd 40GB?
-14GB = install + lol
+guide: https://github.com/saveriomiroddi/vga-passthrough/blob/master/3_BASIC_SETUP.md
 
-win10 iso with
+## install
 
+40GB qcow
 
-use virt-manager!
+attach the windows iso and drivers. install the scsi driver and net driver.
 
-storage and net drivers!
+libvirt/virsh isn't required neither is virt-manager
 
-install spice?
+## run
 
+just use run.sh with root
+
+## help
 https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF#Prerequisites
-
-https://github.com/saveriomiroddi/vga-passthrough/blob/master/3_BASIC_SETUP.md
-
-
-nvidia fix!
-https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF#Troubleshooting
