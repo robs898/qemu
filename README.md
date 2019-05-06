@@ -24,3 +24,7 @@ libvirt/virsh isn't required neither is virt-manager
 
 ## help
 https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF#Prerequisites
+
+increase disk size:
+
+`qemu-img resize disk.qcow2 +5GB`
